@@ -14,3 +14,6 @@ class Solution(object):
             if nums[r] > nums[r - 1]:
                 ind = r - 1
                 break
+        else:
+            nums.reverse()
+            return nums
