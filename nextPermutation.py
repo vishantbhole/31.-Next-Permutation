@@ -9,3 +9,8 @@ class Solution(object):
         
         n = len(nums)
         ind = None
+        
+        for r in range(n - 1, 0, -1):
+            if nums[r] > nums[r - 1]:
+                ind = r - 1
+                break
