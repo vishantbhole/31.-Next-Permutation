@@ -34,3 +34,6 @@ if __name__ == "__main__":
     sol = Solution()
     nums = [3,2,1]
     print("Output is : ", sol.nextPermutation(nums))
+    
+    nums2 = [1, 5, 4, 3, 2]
+    print("Output is : ", sol.nextPermutation(nums2))
