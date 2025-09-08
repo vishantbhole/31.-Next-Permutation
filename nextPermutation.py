@@ -27,3 +27,10 @@ class Solution(object):
         nums[ind + 1:] = reversed(nums[ind + 1:])
 
         return nums
+
+
+
+if __name__ == "__main__":
+    sol = Solution()
+    nums = [3,2,1]
+    print("Output is : ", sol.nextPermutation(nums))
